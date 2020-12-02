@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	box-sizing: border-box;
+	background: white;
+}
+
+.full_container{
+	width: 100%;
+	background: white;
+	text-align: center;
+	background: white;
+	margin-top: 3%;
+}
+
+.sub_full_container{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2%;
+	background: #898989;
+	text-align: center;
+}
+
+.question_paper_div{
+	width: 90%;
+	background: #6B3C5C;
+	display: block;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.question_paper_header_div{
+	text-align: center;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.question_paper_question_div{
+	background: #998F6C;
+}
+#first_div{
+	flex: 1;
+	text-align: left;
+	margin-left: 28%;
+}
+#second_div{
+	flex: 1;
+	text-align: left;
+	margin-left: 28%;
+}
+
+.question_paper_result_div{
+	display: block;
+	background: #6B3C5C;
+	text-align: center;
+	overflow: auto;
+}
+.submit_button_div{
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.result_publishing_div{
+	margin: 0 auto;
+	margin-bottom: 3%;
+}
+
+@media (min-width: 850px){
+	.question_paper_question_div{
+		display: flex;
+		justify-content: space-between;
+		background: #998F6C;
+		text-align: center;
+	}
+	#first_div{
+		margin-left: 13%;
+	}
+	#second_div{
+		margin-left: 13%;
+	}
+}
